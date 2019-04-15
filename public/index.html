@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style type="text/css">
+		* {
+			margin: 0;
+			padding: 0;
+			border: none;
+			outline: none;
+			color: inherit;
+			font-family: inherit;
+			line-height: inherit;
+			font-size: inherit;
+			background: transparent;
+		}
+
+		html, body, #root {
+			width: 100vw;
+			height: 100vh;
+		}
+		#root {
+			display: flex;
+		}
+		.fuck-you-scroll::-webkit-scrollbar {
+			width: 8px;
+		}
+
+		/* Track */
+		.fuck-you-scroll::-webkit-scrollbar-track {
+			border-radius: 10px;
+			margin: 1px;
+		}
+
+		/* Handle */
+		.fuck-you-scroll::-webkit-scrollbar-thumb {
+			border-radius: 10px;
+			background: #cccccc;
+		}
+		.fuck-you-scroll:hover::-webkit-scrollbar-thumb {
+			border-radius: 10px;
+			background: #999999;
+		}
+	</style>
+	<title>wyb.be</title>
+</head>
+<body>
+	<div id="root"></div>
+</body>
+</html>
